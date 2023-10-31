@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>guessTheNumber</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+ <h1>Привет! Я загадал число между 0 и 500 Твоя задача - угадать его.</h1>
+
+    <div id="game">
+        <label for="variant">Ваш вариант числа:</label>
+        <input type="number" min="0" max="500" onchange="checkNumber(this.value)"> 
+        <br>
+        <p>Ваш результат:
+        </p>
+    </div>
+
+    <div id="postScriptum">
+        Раздел в разработке. Планируется добавить:<br>
+        <li> real-time счётчик действий во время игры</li>
+        <li> результаты всех игравших</li>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 

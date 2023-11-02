@@ -17,7 +17,7 @@ result = document.getElementById(`result`)
 function checkNumber(number){
     if (number == goal) {
         alert(`Вы выиграли!`)
-        result.textContent=score+`!`
+        result.textContent=score
     }
     if (number != goal){
         score+=1

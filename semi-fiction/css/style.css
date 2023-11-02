@@ -1,0 +1,13 @@
+#gameLink{
+    margin: 0 auto;
+    width: 200px;
+    border: solid 4px;
+    border-color: red;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#logo{
+    display: block;
+    text-align: center;   
+}

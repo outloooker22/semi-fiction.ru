@@ -1,39 +1,23 @@
+html{
+    text-align: center;
+}
+
+#mainContent{
+    
+}
+
 #gameLink{
     margin: 0 auto;
     width: 200px;
     border: solid 4px;
-    border-color: red;
+    border-color: grey;
     border-radius: 10px;
-    text-align: center;
-}
-
-#logo{
-    display: block;
-    text-align: center;   
-}
-
-html{
-    background-color: rgb(37, 34, 31);
-    color: white;
-    text-align: center;
 }
 
 #game {
     margin: 0 auto;
     width: 300px;
 }
-h1{
-    padding-top: 150px;
-}
-
-/* .data{
-    width: 200px;
-    position: absolute;
-    left: 5px;
-    top: 5px;
-    border: 2px gray;
-    border-radius: 3px;
-} */
 
 #postScriptum {
     width: 150px;
